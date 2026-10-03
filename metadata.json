@@ -1,0 +1,6 @@
+{
+  "name": "Premiere · Undangan Pernikahan Retro Film",
+  "description": "Undangan pernikahan digital bergaya retro film 60–70-an untuk Dimas & Laras, lengkap dengan film leader countdown, pita seluloid, tiket premiere ber-QR, check-in tamu, dan jadwal tayang.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}

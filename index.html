@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171412" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>%TITLE%</title>
+    <meta name="description" content="%DESCRIPTION%" />
+
+    <!-- Preview link (WhatsApp, Facebook, Telegram). Nilai %...% diisi otomatis saat build dari konten undangan (vite.config.ts). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Premiere" />
+    <meta property="og:title" content="%TITLE%" />
+    <meta property="og:description" content="%OG_DESCRIPTION%" />
+    <meta property="og:url" content="%SITE_URL%/" />
+    <meta property="og:image" content="%OG_IMAGE%" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="id_ID" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="%OG_IMAGE%" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=DM+Serif+Display:ital@0;1&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#EFE5D0] text-[#171412] antialiased selection:bg-[#B4392B] selection:text-[#F6EFE1]">
+    <div id="root">
+      <!-- Ditampilkan sebentar selama konten undangan dimuat -->
+      <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;background:#171412">
+        <div style="width:56px;height:56px;border-radius:50%;border:3px solid rgba(246,239,225,.25);border-top-color:#D7A13E;animation:boot-spin .9s linear infinite"></div>
+      </div>
+      <style>@keyframes boot-spin{to{transform:rotate(360deg)}}</style>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
